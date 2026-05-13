@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Jeffrey Siler | Partner at Siler &amp; Ingber</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "error-container": "#ffdad6",
+                    "tertiary-container": "#464848",
+                    "surface-container-highest": "#e4e2e2",
+                    "error": "#ba1a1a",
+                    "surface-container-lowest": "#ffffff",
+                    "surface": "#fbf9f8",
+                    "primary-container": "#950000",
+                    "primary": "#6a0000",
+                    "on-error": "#ffffff",
+                    "on-primary": "#ffffff",
+                    "tertiary-fixed-dim": "#c6c6c7",
+                    "outline-variant": "#e3beb8",
+                    "on-secondary-container": "#646464",
+                    "on-primary-container": "#ff9c8c",
+                    "tertiary-fixed": "#e2e2e2",
+                    "surface-bright": "#fbf9f8",
+                    "on-background": "#1b1c1c",
+                    "surface-container": "#efeded",
+                    "on-surface-variant": "#5b403c",
+                    "surface-variant": "#e4e2e2",
+                    "surface-dim": "#dbdad9",
+                    "on-tertiary-fixed-variant": "#454747",
+                    "on-primary-fixed": "#410000",
+                    "secondary": "#5e5e5e",
+                    "primary-fixed": "#ffdad4",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary-fixed": "#1b1b1b",
+                    "on-error-container": "#93000a",
+                    "on-surface": "#1b1c1c",
+                    "on-secondary": "#ffffff",
+                    "outline": "#8f706b",
+                    "inverse-surface": "#303031",
+                    "inverse-primary": "#ffb4a8",
+                    "secondary-fixed-dim": "#c6c6c6",
+                    "secondary-fixed": "#e2e2e2",
+                    "primary-fixed-dim": "#ffb4a8",
+                    "on-tertiary-fixed": "#1a1c1c",
+                    "inverse-on-surface": "#f2f0f0",
+                    "tertiary": "#303232",
+                    "surface-container-low": "#f5f3f3",
+                    "secondary-container": "#e2e2e2",
+                    "on-secondary-fixed-variant": "#474747",
+                    "surface-container-high": "#e9e8e7",
+                    "on-primary-fixed-variant": "#930000",
+                    "surface-tint": "#b72215",
+                    "on-tertiary-container": "#b6b6b7",
+                    "background": "#fbf9f8"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "max-width": "1280px",
+                    "section-padding": "120px",
+                    "content-gap": "32px",
+                    "grid-margin": "auto",
+                    "gutter": "24px",
+                    "base": "8px"
+            },
+            "fontFamily": {
+                    "body-md": ["Montserrat"],
+                    "h3": ["Montserrat"],
+                    "h2": ["Montserrat"],
+                    "button": ["Montserrat"],
+                    "body-lg": ["Montserrat"],
+                    "h1": ["Montserrat"],
+                    "display": ["Montserrat"],
+                    "label-caps": ["Montserrat"]
+            },
+            "fontSize": {
+                    "body-md": ["16px", {"lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400"}],
+                    "h3": ["24px", {"lineHeight": "1.4", "letterSpacing": "0", "fontWeight": "600"}],
+                    "h2": ["32px", {"lineHeight": "1.3", "letterSpacing": "0", "fontWeight": "600"}],
+                    "button": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400"}],
+                    "h1": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "display": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fbf9f8;
+            color: #1b1c1c;
+        }
+        .justice-border {
+            border: 1px solid #1b1c1c;
+        }
+        .justice-accent-border {
+            border-left: 4px solid #950000;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface">
+<!-- TopAppBar Shared Component -->
+<header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-8 h-20 max-w-[1280px] left-1/2 -translate-x-1/2 bg-white border-b-2 border-zinc-900">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-red-800 text-2xl" data-icon="gavel">gavel</span>
+<span class="text-2xl font-black text-red-800 tracking-tighter font-['Montserrat']">SILER &amp; INGBER</span>
+</div>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="font-['Montserrat'] tracking-tight uppercase font-bold text-sm text-red-800 border-b-2 border-red-800" href="#">JEFFREY SILER</a>
+<a class="font-['Montserrat'] tracking-tight uppercase font-medium text-sm text-zinc-900 hover:text-red-800 transition-colors duration-200" href="#">OUR STORY</a>
+<a class="font-['Montserrat'] tracking-tight uppercase font-medium text-sm text-zinc-900 hover:text-red-800 transition-colors duration-200" href="#">PRACTICE AREAS</a>
+<button class="bg-primary-container text-on-primary px-6 py-3 font-button text-button uppercase tracking-widest hover:opacity-90 transition-all">FREE CONSULTATION</button>
+</nav>
+</header>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative min-h-[819px] flex items-center justify-center bg-surface overflow-hidden px-8">
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<div class="absolute inset-0 bg-[radial-gradient(#950000_1px,transparent_1px)] [background-size:40px_40px]"></div>
+</div>
+<div class="max-w-[1280px] w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 space-y-8 z-10">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-[0.2em] block">PARTNER AT SILER &amp; INGBER</span>
+<h1 class="font-display text-display text-on-background leading-tight">In Pursuit of Justice for the <span class="text-primary-container">Injured.</span></h1>
+<p class="font-body-lg text-body-lg text-secondary max-w-xl">Representing New York's complex personal injury cases with unwavering dedication. We navigate the legal labyrinth so you can focus on healing.</p>
+<div class="justice-accent-border pl-6 py-2 italic text-on-surface font-body-md text-body-md bg-surface-container-low">
+                        "We don't just practice law; we protect your future."
+                    </div>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-primary-container text-on-primary px-8 py-4 font-button text-button uppercase transition-all hover:scale-[1.02]">SCHEDULE FREE CONSULTATION</button>
+<button class="border border-on-surface text-on-surface px-8 py-4 font-button text-button uppercase transition-all hover:bg-on-surface hover:text-white">OUR STORY</button>
+</div>
+</div>
+<div class="lg:col-span-5 relative hidden lg:block">
+<div class="justice-border p-4 bg-white">
+<img alt="Jeffrey Siler Professional Portrait" class="grayscale contrast-125 w-full aspect-[4/5] object-cover" data-alt="A professional portrait of Jeffrey Siler." src="https://www.nylawnet.com/wp-content/uploads/2021/09/team-2-768x768.png"/>
+</div>
+<div class="absolute -bottom-6 -right-6 w-32 h-32 bg-primary-container -z-10"></div>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+<section class="bg-surface-container py-16 border-y border-zinc-200">
+<div class="max-w-[1280px] mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="text-center md:text-left">
+<div class="font-display text-h1 text-primary-container">$100M+</div>
+<div class="font-label-caps text-label-caps uppercase text-secondary">Total Recovered</div>
+</div>
+<div class="text-center md:text-left">
+<div class="font-display text-h1 text-on-surface">30+</div>
+<div class="font-label-caps text-label-caps uppercase text-secondary">Years of Expertise</div>
+</div>
+<div class="text-center md:text-left">
+<div class="font-display text-h1 text-on-surface">5,000+</div>
+<div class="font-label-caps text-label-caps uppercase text-secondary">Clients Represented</div>
+</div>
+<div class="text-center md:text-left">
+<div class="font-display text-h1 text-on-surface">100%</div>
+<div class="font-label-caps text-label-caps uppercase text-secondary">Client Commitment</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-[120px] bg-white">
+<div class="max-w-[1280px] mx-auto px-8 grid grid-cols-1 lg:grid-cols-12 gap-16">
+<div class="lg:col-span-5 order-2 lg:order-1">
+<div class="justice-border p-4 bg-surface-container-low">
+<img alt="Jeffrey Siler in Office" class="grayscale w-full aspect-square object-cover" data-alt="Jeffrey Siler portrait." src="https://www.nylawnet.com/wp-content/uploads/2021/09/team-2-768x768.png"/>
+</div>
+</div>
+<div class="lg:col-span-7 order-1 lg:order-2 flex flex-col justify-center space-y-6">
+<h2 class="font-h2 text-h2 uppercase text-on-surface tracking-tight">JEFFREY SILER, MANAGING PARTNER</h2>
+<div class="w-24 h-1 bg-primary-container"></div>
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+                        Jeffrey Siler is a senior partner at Siler &amp; Ingber with extensive experience in personal injury law, known for his strategic litigation and commitment to client success. Over three decades, he has built a reputation for relentless advocacy, representing New Yorkers in their most challenging moments.
+                    </p>
+<p class="font-body-md text-body-md text-secondary">
+                        Mr. Siler specializes in navigating the complexities of high-stakes litigation, ensuring that insurance companies and negligent parties are held accountable. His approach combines surgical precision in the courtroom with a deeply personal commitment to the families he represents.
+                    </p>
+<div class="grid grid-cols-2 gap-4 pt-6">
+<div class="p-4 border border-zinc-100 bg-surface">
+<span class="material-symbols-outlined text-primary-container block mb-2" data-icon="verified">verified</span>
+<span class="font-label-caps text-label-caps text-on-surface block">SUPER LAWYER</span>
+</div>
+<div class="p-4 border border-zinc-100 bg-surface">
+<span class="material-symbols-outlined text-primary-container block mb-2" data-icon="balance">balance</span>
+<span class="font-label-caps text-label-caps text-on-surface block">NYC BAR MEMBER</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Practice Areas (Bento Style) -->
+<section class="py-[120px] bg-surface-container-low">
+<div class="max-w-[1280px] mx-auto px-8">
+<div class="mb-16 text-center">
+<span class="font-label-caps text-label-caps text-primary uppercase">Core Expertise</span>
+<h2 class="font-h2 text-h2 uppercase mt-2">Specialized Legal Consultation</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="justice-border bg-white p-8 group hover:bg-primary-container transition-all duration-300">
+<span class="material-symbols-outlined text-4xl text-primary-container mb-6 group-hover:text-white transition-colors" data-icon="directions_car">directions_car</span>
+<h3 class="font-h3 text-h3 mb-4 group-hover:text-white transition-colors">Motor Vehicle Accidents</h3>
+<p class="font-body-md text-body-md text-secondary group-hover:text-white/80 transition-colors">Comprehensive representation for car, truck, and motorcycle collisions, focusing on maximum medical and financial recovery.</p>
+<div class="mt-8">
+<a class="text-primary-container font-button text-button uppercase group-hover:text-white flex items-center gap-2" href="#">
+                                Learn More <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="justice-border bg-white p-8 group hover:bg-primary-container transition-all duration-300">
+<span class="material-symbols-outlined text-4xl text-primary-container mb-6 group-hover:text-white transition-colors" data-icon="medical_services">medical_services</span>
+<h3 class="font-h3 text-h3 mb-4 group-hover:text-white transition-colors">Medical Malpractice</h3>
+<p class="font-body-md text-body-md text-secondary group-hover:text-white/80 transition-colors">Holding healthcare providers accountable for negligence, surgical errors, and misdiagnosis that cause life-altering harm.</p>
+<div class="mt-8">
+<a class="text-primary-container font-button text-button uppercase group-hover:text-white flex items-center gap-2" href="#">
+                                Learn More <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="justice-border bg-white p-8 group hover:bg-primary-container transition-all duration-300">
+<span class="material-symbols-outlined text-4xl text-primary-container mb-6 group-hover:text-white transition-colors" data-icon="construction">construction</span>
+<h3 class="font-h3 text-h3 mb-4 group-hover:text-white transition-colors">Workplace Injuries</h3>
+<p class="font-body-md text-body-md text-secondary group-hover:text-white/80 transition-colors">Protecting the rights of workers injured on construction sites or in industrial accidents throughout New York.</p>
+<div class="mt-8">
+<a class="text-primary-container font-button text-button uppercase group-hover:text-white flex items-center gap-2" href="#">
+                                Learn More <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Office & Consultation Section -->
+<section class="py-[120px] bg-white">
+<div class="max-w-[1280px] mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-24">
+<div class="space-y-12">
+<div>
+<h2 class="font-h2 text-h2 uppercase mb-4">OFFICE HEADQUARTERS</h2>
+<div class="w-24 h-1 bg-primary-container mb-8"></div>
+</div>
+<div class="space-y-8">
+<div class="flex items-start gap-6">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-primary-container" data-icon="location_on">location_on</span>
+</div>
+<div>
+<h4 class="font-label-caps text-label-caps uppercase text-secondary mb-1">VISIT US</h4>
+<p class="font-body-lg text-body-lg font-bold">301 Mineola Blvd,<br/>Mineola, NY 11501</p>
+</div>
+</div>
+<div class="flex items-start gap-6">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-primary-container" data-icon="call">call</span>
+</div>
+<div>
+<h4 class="font-label-caps text-label-caps uppercase text-secondary mb-1">CALL US</h4>
+<p class="font-body-lg text-body-lg font-bold">(516) 294-0300</p>
+</div>
+</div>
+<div class="flex items-start gap-6">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-primary-container" data-icon="mail">mail</span>
+</div>
+<div>
+<h4 class="font-label-caps text-label-caps uppercase text-secondary mb-1">EMAIL US</h4>
+<p class="font-body-lg text-body-lg font-bold">contact@nylawnet.com</p>
+</div>
+</div>
+</div>
+<div class="h-64 justice-border overflow-hidden">
+<div class="w-full h-full bg-zinc-200 flex items-center justify-center grayscale">
+<!-- Placeholder for map -->
+<div class="text-center p-8">
+<span class="material-symbols-outlined text-4xl text-secondary mb-2" data-icon="map">map</span>
+<p class="font-label-caps text-label-caps text-secondary">Mineola, New York Location Map</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container p-12 justice-border">
+<h3 class="font-h3 text-h3 uppercase mb-8">Secure Your Free Consultation</h3>
+<form class="space-y-6">
+<div class="space-y-1">
+<label class="font-label-caps text-[10px] uppercase tracking-widest text-secondary block">FULL NAME</label>
+<input class="w-full bg-transparent border-0 border-b border-on-surface py-3 px-0 focus:ring-0 focus:border-primary-container transition-colors font-body-md" placeholder="John Doe" type="text"/>
+</div>
+<div class="space-y-1">
+<label class="font-label-caps text-[10px] uppercase tracking-widest text-secondary block">PHONE NUMBER</label>
+<input class="w-full bg-transparent border-0 border-b border-on-surface py-3 px-0 focus:ring-0 focus:border-primary-container transition-colors font-body-md" placeholder="(555) 000-0000" type="tel"/>
+</div>
+<div class="space-y-1">
+<label class="font-label-caps text-[10px] uppercase tracking-widest text-secondary block">EMAIL ADDRESS</label>
+<input class="w-full bg-transparent border-0 border-b border-on-surface py-3 px-0 focus:ring-0 focus:border-primary-container transition-colors font-body-md" placeholder="john@example.com" type="email"/>
+</div>
+<div class="space-y-1">
+<label class="font-label-caps text-[10px] uppercase tracking-widest text-secondary block">CASE DETAILS</label>
+<textarea class="w-full bg-transparent border-0 border-b border-on-surface py-3 px-0 focus:ring-0 focus:border-primary-container transition-colors font-body-md resize-none" placeholder="Briefly describe your situation..." rows="4"></textarea>
+</div>
+<div class="pt-6">
+<button class="w-full bg-primary-container text-on-primary py-5 font-button text-button uppercase tracking-widest hover:opacity-90 transition-all" type="submit">SUBMIT SECURE REQUEST</button>
+</div>
+<p class="text-[10px] font-body-md text-secondary text-center">Your information is protected by attorney-client privilege. Submitting this form does not establish an attorney-client relationship.</p>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Shared Component -->
+<footer class="bg-zinc-100 w-full py-16 px-8 flex flex-col md:flex-row justify-between items-center gap-8 border-t border-zinc-300">
+<div class="flex flex-col items-center md:items-start gap-2">
+<span class="text-lg font-bold text-zinc-900 font-['Montserrat']">SILER &amp; INGBER</span>
+<span class="font-['Montserrat'] text-xs uppercase tracking-widest text-zinc-600">© 2024 Ron Ingber. All Rights Reserved.</span>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-['Montserrat'] text-xs uppercase tracking-widest text-zinc-600 hover:text-black transition-all" href="#">Main Website</a>
+<a class="font-['Montserrat'] text-xs uppercase tracking-widest text-zinc-600 hover:text-black transition-all" href="#">About</a>
+<a class="font-['Montserrat'] text-xs uppercase tracking-widest text-zinc-600 hover:text-black transition-all" href="#">Services</a>
+<a class="font-['Montserrat'] text-xs uppercase tracking-widest text-zinc-600 hover:text-black transition-all" href="#">Contact</a>
+</div>
+<div class="flex gap-4">
+<div class="p-2 border border-zinc-300 grayscale opacity-50">
+<span class="material-symbols-outlined text-sm" data-icon="shield">shield</span>
+</div>
+<div class="p-2 border border-zinc-300 grayscale opacity-50">
+<span class="material-symbols-outlined text-sm" data-icon="verified_user">verified_user</span>
+</div>
+</div>
+</footer>
+</body></html>
