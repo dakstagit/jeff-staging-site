@@ -86,7 +86,7 @@
 
       <nav class="hidden md:flex items-center gap-8">
         <a class="text-sm font-bold uppercase tracking-wide text-brand-red border-b-2 border-brand-red pb-1" href="#">Jeffrey Siler</a>
-        <a class="text-sm font-semibold uppercase tracking-wide text-zinc-800 hover:text-brand-red transition" href="#">Our Story</a>
+        <a class="text-sm font-semibold uppercase tracking-wide text-zinc-800 hover:text-brand-red transition" href="/articles/">Articles</a>
         <a class="text-sm font-semibold uppercase tracking-wide text-zinc-800 hover:text-brand-red transition" href="#">Practice Areas</a>
         <button class="bg-brand-red text-white px-6 py-3 rounded-full text-xs font-bold uppercase tracking-widest shadow-lg shadow-red-900/20 hover:bg-brand-darkred hover:-translate-y-0.5 transition-all">
           Free Consultation
@@ -127,9 +127,9 @@
             <button class="bg-brand-gold text-zinc-950 px-8 py-4 rounded-full text-sm font-extrabold uppercase tracking-widest shadow-xl hover:-translate-y-1 hover:bg-white transition-all">
               Schedule Free Consultation
             </button>
-            <button class="border border-white/40 text-white px-8 py-4 rounded-full text-sm font-bold uppercase tracking-widest hover:bg-white hover:text-zinc-950 transition-all">
-              Our Story
-            </button>
+            <a href="/articles/" class="border border-white/40 text-white px-8 py-4 rounded-full text-sm font-bold uppercase tracking-widest hover:bg-white hover:text-zinc-950 transition-all">
+              Articles
+            </a>
           </div>
         </div>
 
@@ -138,7 +138,7 @@
           <div class="relative bg-white p-4 rounded-[2rem] shadow-premium">
             <img
               src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=900&q=80"
-              alt="Jeffrey Siler Professional Portrait"
+              alt="Legal stock image"
               class="w-full aspect-[4/5] object-cover rounded-[1.5rem] grayscale contrast-110"
             />
 
@@ -190,8 +190,8 @@
             <div class="absolute -inset-5 bg-brand-red rounded-3xl rotate-[-3deg] opacity-10"></div>
             <div class="relative bg-white rounded-3xl p-4 shadow-soft">
               <img
-                src="https://www.nylawnet.com/wp-content/uploads/2021/09/team-2-768x768.png"
-                alt="Jeffrey Siler in Office"
+                src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=900&q=80"
+                alt="Legal stock image"
                 class="w-full aspect-square object-cover rounded-2xl"
               />
             </div>
@@ -286,6 +286,40 @@
       </div>
     </section>
 
+    <!-- Interview Video -->
+    <section class="py-28 lg:py-36 bg-zinc-950 text-white px-6 lg:px-8">
+      <div class="max-w-[1100px] mx-auto text-center">
+        <span class="text-xs font-black uppercase tracking-[0.22em] text-brand-gold">
+          Featured Interview
+        </span>
+
+        <h2 class="mt-3 text-3xl md:text-5xl font-black uppercase tracking-tight">
+          Watch Jeffrey Siler’s Interview
+        </h2>
+
+        <p class="mt-5 text-zinc-300 max-w-2xl mx-auto leading-relaxed">
+          Learn more about Jeffrey Siler’s approach to personal injury law, client advocacy, and fighting for injured New Yorkers.
+        </p>
+
+        <div class="gold-line mx-auto mt-6 mb-10"></div>
+
+        <div class="rounded-3xl overflow-hidden shadow-premium bg-black aspect-video border border-white/10">
+          <iframe
+            class="w-full h-full"
+            src="PASTE-YOUTUBE-EMBED-URL-HERE"
+            title="Jeffrey Siler Interview"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <p class="mt-5 text-xs text-zinc-500">
+          Replace PASTE-YOUTUBE-EMBED-URL-HERE with the actual YouTube embed URL.
+        </p>
+      </div>
+    </section>
+
     <!-- Office & Consultation -->
     <section class="py-28 lg:py-36 bg-brand-soft px-6 lg:px-8">
       <div class="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
@@ -324,13 +358,6 @@
                 <p class="text-xs font-black uppercase tracking-widest text-zinc-500">Email Us</p>
                 <p class="text-xl font-bold mt-1 break-all">jsiler@nylawnet.com</p>
               </div>
-            </div>
-          </div>
-
-          <div class="mt-8 h-72 rounded-3xl overflow-hidden bg-zinc-200 shadow-soft flex items-center justify-center">
-            <div class="text-center p-8">
-              <span class="material-symbols-outlined text-5xl text-zinc-500 mb-2">map</span>
-              <p class="text-xs font-black uppercase tracking-widest text-zinc-500">Mineola, New York Location Map</p>
             </div>
           </div>
         </div>
@@ -373,6 +400,21 @@
       </div>
     </section>
 
+    <!-- Bottom Map -->
+    <section class="bg-white px-6 lg:px-8 pb-28">
+      <div class="max-w-[1280px] mx-auto">
+        <div class="rounded-3xl overflow-hidden shadow-premium border border-zinc-100 h-[420px]">
+          <iframe
+            class="w-full h-full border-0"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=301%20Mineola%20Blvd,%20Mineola,%20NY%2011501&output=embed">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- Footer -->
@@ -385,7 +427,7 @@
 
       <div class="flex flex-wrap justify-center gap-8">
         <a class="text-xs uppercase tracking-widest text-zinc-400 hover:text-white transition" href="#">Siler & Ingber</a>
-        <a class="text-xs uppercase tracking-widest text-zinc-400 hover:text-white transition" href="#">About</a>
+        <a class="text-xs uppercase tracking-widest text-zinc-400 hover:text-white transition" href="/articles/">Articles</a>
         <a class="text-xs uppercase tracking-widest text-zinc-400 hover:text-white transition" href="#">Services</a>
         <a class="text-xs uppercase tracking-widest text-zinc-400 hover:text-white transition" href="#">Contact</a>
       </div>
